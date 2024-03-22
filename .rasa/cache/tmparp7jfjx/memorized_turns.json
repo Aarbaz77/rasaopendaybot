@@ -1,0 +1,28 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtyu0JgDAMRdFVMoATdBWREGqEgL7WfgildHcL+u8euGsfC/WY9GHxxQIc9S8YcqmjH6flophvzZrmY5gsjg6DwCuHqOBdGhvuaqmNsb0/TCNg": "respond_finance_open_day",
+    "eJyVjVsKgCAURLfiAlqBW4m4iN7gQo3mIxBx7wn11U/0NwfOzMytT6qFyCcZm8VDq3YHgtlZqwc2SZkx3JI4DkcwMGu1Cgwskw8McqaS4CgSa/+YjZyCh6N3/8/DcgEGtEl/": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvyA1Lz4lsTI+M6+wNLOosrY2FgAzKiAt": "respond_open_day",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvyA1Lz4lsTI+M6+wNLOospaAcUWpxQX5eSnxMH3EmBgLAIz2P+Y=": "action_listen",
+    "eJwtylsKgCAURdGpOIBG4FQiLmIHu1Cn8hGIOPeE+tsL9tz6ZNoV8YjzWU9a074QugPW/Ng1ZXC8JSGORzmYrfEbDvVuFzAogagMcl6grK6K8i4aa+/LCyu1KKw=": "respond_chemical_engineering_open_day",
+    "eJydjVEKgzAQRK+SA3iCXKXIEuKgCzpJN7Egwbsb0O8W+jcPHvNe7Rxcy4aPhFg10bt2D2HY4N0Dq5YKdncvsO4oO1bv4oJNY1gFnJWAKWdJGZQpHKJ872rH+aNhKDlxkq9nf7fHC47kWWM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KfGleRmJBQWVtbWxAN75UWc=": "utter_cheer_up",
+    "eJydjlEKgCAQRK/iATqBV4lYxJYUchVdgxDv3oL9G/0MM/B4zNr6olrKeIGx7CNp1UYBMgG1esfpCyMJWwtmYTzJZK2OjMh94qjMmGGg/wyTFyHGHSo5k9L97Yx1KFnTzLU9XiFuqQ==": "utter_did_that_help",
+    "eJytjlEKgCAQRK/iATqBV4lYRIcUahVbg5DunlD/RvQzzMDjMWM9B1VTxk7GSoisVb0LsVmh1TOWsAm4sWVDbkzgNkWrOQNydhxFBJlu9Juh82KN0VFhb1I63p2xHi1L+sPlgiPxRshj6QqnC1EGjek=": "action_listen",
+    "eJytj9EJwzAMRFfxAJ3Aq4QgRKzUglg2ilwoxrvXkP67tP0Rd/B4nJbWb64VpQfgZpzFu3YFEEzk3bscfBrJYOtJOhiWUc27uxJZnziqGSlc6HeGyYqUc4AqEUt5fjZmizRuLf9wBQ5gEQ0iHT8KJ3/ivrOm3tcXH2yoGw==": "utter_happy",
+    "eJytj0EKAyEMRa/iAXoCr1JKCGOmBsYomVgoMnevYLfFoe0m5MPn5eXajotrRekBuBhn8a6NBQQTefcOG+9G0rt1J+0dlh7Nu7sS2TFhVDNSGNXvCBOLlHOAKhFLeZ6TWSL1Wcs/WIEDWESDSNuPwMmfuK6s6ZzVuPcRcXsBe37Blg==": "action_listen",
+    "eJwtylEKgCAQRdGtuIBW4FYihsEeNlCvMgtE3HtC/d0Dd6xtcPVIeERDtp3e1S+EusG7H6tdGezvfSH1x9iZvdsQFqUFXQWMRiAZo+wHKLMWMZ63pdLa9AJ9fyl7": "respond_mechanical_engineering_open_day",
+    "eJyljcEJwzAQBFtRAa5ArYRwHPLiHNgr5SQbjHDvESR/P/LbgWHn0a8p9OI4RFOzzBj6dwh1Qww/WK02cLh7hQ/HOLDFsCG9lJZ0FXAxAm5cJBdQZj3F+N7Nz+um4qglc5abuz/6zw+yLVvQ": "action_listen",
+    "eJwtylEKgCAQRdGtzAJagVuJGLTmY6Ce5mgg4t4T6u8euGsfC/WU5WG/F41w1L9g+Esc/TjVimC+1STPRzFZHIVqCjHjmAR8+MaKu2puY2wvZyYj+A==": "respond_business_open_day",
+    "eJyVjUEKgDAMBL+SB/iCfkUkVJtDQNOatEIp/t2C3jyItx0YZsd2DtCS0oF+yRzFQbsHit/IwQMrWybpbjHS7rB0zA7mYixkhjGRYPAVWfbCWs+PrpKlKAFfgV8f0wUN7EtH": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4EGxQIAPEFQdQ==": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4l0SkZiQUElfmNiAVKZa5w=": "action_listen",
+    "eJytj1EKwyAQRK/iAXoCr1LCInGIQrKKWQNFvHsX7L+h7c8yA4/H7LP1h2m54CK3SkxsTRuB2B2w5lP2eApY2XqiKBNZq1izFUD6xFFFUGig3xkmK46UPFUOLufXvTFrgN6a/+Hy0ZMEJxSw/yic/OnBqlje0A2nVg==": "utter_goodbye",
+    "eJytj9EJwzAMRFfxAJ3Aq4Qg3PiIDYlsHLkQTHavIP0NDm1/hA6Op6ehHQ/TcsGL3CQxsTXtXIjdCms+YYmbgLVbNxTtRNYo1swFkKPDqCIodFa/I3Qs1pQ8VQ4u5/2ezBSgs+Z/sHz0JMEJBSw/Ajt/evBNp1mPPndcIcY3+fTA0w==": "action_listen",
+    "eJwtysEJwCAMQNFVMkAncJVSgqQ5BGq0MRZE3L1Ce/sP/j7mBqMYPxjJJWuA8QVqTBzgxyXVWdfbKtt6RBc9AOVUmrNhJWElxlxY8YwdRe8m1uc8XpKjJzQ=": "respond_computer_science_open_day",
+    "eJydjVEKgCAQBa/iATqBV4lYxN7HQq62ahDi3RPqN4L+3sAwb259Mi0pDnK+cBRr2j1IXIA1D2ycC2S4NUOHwzKwWONjSLVAKXuGeFBMEFrdSSx7ZT37R1+RU5SVXkO/PpcLnLtU+w==": "action_listen"
+  }
+}

@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - open_day_inquiry
+  - computer_science_open_day_inquiry
+  - business_open_day_inquiry
+  - finance_open_day_inquiry
+  - chemical_engineering_open_day_inquiry
+  - mechanical_engineering_open_day_inquiry
+  - computer_science_undergrad_courses
+  - computer_science_postgrad_courses
+  
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_respond_open_day:
+  - text: "Our open day is scheduled for [date]. We have a range of activities planned including campus tours, information sessions, and opportunities to meet faculty and students. You can find more details on our website or feel free to ask me any specific questions you may have!"
+  
+  utter_respond_computer_science_open_day:
+  - text: "During the open day, we have several activities specifically tailored for computer science enthusiasts. You can attend presentations on our computer science programs, participate in demonstrations of cutting-edge technologies, engage in discussions with faculty members about research opportunities, and even tour our computer labs to see our facilities firsthand. If you have any specific questions about our computer science department or programs, feel free to ask! You can look into the courses we offer"
+    buttons:
+    - title: "Undergraduate Degree"
+      payload: "/computer_science_undergrad_courses"
+    - title: "Postgraduate Degree"
+      payload: "/computer_science_postgrad_courses"
+
+  utter_respond_business_open_day:
+  - text: "During the open day, we have several activities specifically tailored for business enthusiasts. You can attend presentations on our business programs, participate in workshops on entrepreneurship and innovation, engage in discussions with faculty members about career opportunities, and even network with alumni who have excelled in the business world. If you have any specific questions about our business department or programs, feel free to ask!"
+  
+  utter_respond_finance_open_day:
+  - text: "During the open day, we have several activities specifically tailored for finance enthusiasts. You can attend presentations on our finance programs, participate in financial analysis workshops, engage in discussions with industry professionals about career paths in finance, and even explore internship opportunities with leading financial institutions. If you have any specific questions about our finance department or programs, feel free to ask!"
+  
+  utter_respond_chemical_engineering_open_day:
+  - text: "During the open day, we have several activities specifically tailored for chemical engineering enthusiasts. You can attend presentations on our chemical engineering programs, participate in laboratory demonstrations showcasing innovative research projects, engage in discussions with faculty members about career prospects in the field, and even tour our state-of-the-art chemical engineering facilities. If you have any specific questions about our chemical engineering department or programs, feel free to ask!"
+
+  utter_respond_mechanical_engineering_open_day:
+  - text: "During the open day, we have several activities specifically tailored for mechanical engineering enthusiasts. You can attend presentations on our mechanical engineering programs, participate in hands-on demonstrations of engineering projects, engage in discussions with faculty members about career opportunities in mechanical engineering, and even tour our advanced engineering laboratories. If you have any specific questions about our mechanical engineering department or programs, feel free to ask!"
+
+  utter_respond_computer_science_undergrad_courses:
+  - text: "We offer two undergraduate courses in computer science: 
+      1. **Computer Science BSc**: This program provides a comprehensive foundation in computer science principles, covering topics such as programming, algorithms, data structures, software engineering, and computer architecture. Students have the opportunity to specialize in areas such as artificial intelligence, machine learning, cybersecurity, or software development.
+      2. **Information Technology BSc**: This program focuses on the application of technology in business settings, covering areas such as network administration, database management, web development, and IT project management. Students learn to integrate technology solutions to address business challenges effectively."
+
+  utter_respond_computer_science_postgrad_courses:
+  - text: "We offer two postgraduate courses in computer science:
+      1. **Applied AI MSc**: This program focuses on advanced topics in artificial intelligence and machine learning, with a practical emphasis on applying AI techniques to real-world problems. Students learn advanced algorithms, deep learning, natural language processing, and computer vision, and work on projects that involve developing AI-based solutions for various applications.
+      2. **Data Science MSc**: This program provides a comprehensive foundation in data science, covering statistical analysis, machine learning, data mining, and big data technologies. Students gain hands-on experience in working with large datasets, developing predictive models, and extracting insights from data to inform decision-making in various domains."
+
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

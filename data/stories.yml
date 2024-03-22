@@ -1,0 +1,74 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Open Day Inquiry
+  steps:
+  - intent: open_day_inquiry
+  - action: utter_respond_open_day
+
+- story: Business Open Day Inquiry
+  steps:
+  - intent: business_open_day_inquiry
+  - action: utter_respond_business_open_day
+
+- story: Computer Science Open Day Inquiry
+  steps:
+  - intent: computer_science_open_day_inquiry
+  - action: utter_respond_computer_science_open_day
+
+- story: Finance Open Day Inquiry
+  steps:
+  - intent: finance_open_day_inquiry
+  - action: utter_respond_finance_open_day
+
+- story: Chemical Engineering Open Day Inquiry
+  steps:
+  - intent: chemical_engineering_open_day_inquiry
+  - action: utter_respond_chemical_engineering_open_day
+
+- story: Mechanical Engineering Open Day Inquiry
+  steps:
+  - intent: mechanical_engineering_open_day_inquiry
+  - action: utter_respond_mechanical_engineering_open_day
+
+- story: Computer Science Undergraduate Courses Inquiry
+  steps:
+  - intent: computer_science_open_day_inquiry
+  - action: utter_respond_computer_science_open_day
+  - intent: computer_science_undergrad_courses
+  - action: utter_respond_computer_science_undergrad_courses
+
+- story: Computer Science Postgraduate Courses Inquiry
+  steps:
+  - intent: computer_science_open_day_inquiry
+  - action: utter_respond_computer_science_open_day
+  - intent: computer_science_postgrad_courses
+  - action: utter_respond_computer_science_postgrad_courses

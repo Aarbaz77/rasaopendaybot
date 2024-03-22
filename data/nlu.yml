@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: open_day_inquiry
+  examples: |
+    - When is the open day?
+    - Can you tell me about the open day schedule?
+    - What activities are planned for the open day?
+    - Is there an open day event coming up?
+    - When is the next open day at LSBU?
+    - Can you provide details about LSBU's open day?
+    - What activities are planned for LSBU's open day?
+    - Is there an upcoming open day event at LSBU
+
+- intent: computer_science_open_day_inquiry
+  examples: |
+    - What computer science-related activities are planned for the open day?
+    - Can you provide information about computer science courses during the open day?
+    - I'm interested in computer science. What can I expect at the open day?
+
+- intent: business_open_day_inquiry
+  examples: |
+    - What business-related activities are planned for the open day?
+    - Can you provide information about business courses during the open day?
+    - I'm interested in business. What can I expect at the open day?
+
+- intent: finance_open_day_inquiry
+  examples: |
+    - What finance-related activities are planned for the open day?
+    - Can you provide information about finance courses during the open day?
+    - I'm interested in finance. What can I expect at the open day?
+
+- intent: chemical_engineering_open_day_inquiry
+  examples: |
+    - What chemical engineering-related activities are planned for the open day?
+    - Can you provide information about chemical engineering courses during the open day?
+    - I'm interested in chemical engineering. What can I expect at the open day?
+
+- intent: mechanical_engineering_open_day_inquiry
+  examples: |
+    - What mechanical engineering-related activities are planned for the open day?
+    - Can you provide information about mechanical engineering courses during the open day?
+    - I'm interested in mechanical engineering. What can I expect at the open day?
+
+- intent: computer_science_undergrad_courses
+  examples: |
+    - What undergraduate courses are available in computer science?
+    - Can you tell me about the Computer Science BSc program?
+    - I'm interested in Information Technology BSc. Can you provide details?
+
+- intent: computer_science_postgrad_courses
+  examples: |
+    - What postgraduate courses are available in computer science?
+    - Can you tell me about the Applied AI MSc program?
+    - I'm interested in Data Science MSc. Can you provide details?
+
